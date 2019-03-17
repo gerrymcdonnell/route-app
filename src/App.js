@@ -17,7 +17,9 @@ class App extends Component {
           <li><Link to="/Two">Two</Link></li>
           <li><Link to="/Three">Three</Link></li>
           <li><Link to="/Four">Four</Link></li>
-          <li><Link to="/Five">five</Link></li>
+          <li><Link to="/nopage">No page</Link></li>
+
+          <li><Link to="/counters">counters Component</Link></li>
         </ul>
 
       </div>

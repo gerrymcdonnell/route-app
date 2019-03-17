@@ -10,6 +10,12 @@ import Four from './components/Four';
 import NoMatch from './components/NoMatch';
 import Fourpointone from './components/Fourpointone';
 
+// import bootstrap v4
+import "bootstrap/dist/css/bootstrap.css";
+
+//counter component
+import Counters from './components/counters';
+
 
 import { Router, Route, browserHistory } from 'react-router'
 
@@ -22,6 +28,9 @@ ReactDOM.render(
     <Route path="/Four" component={Four}>
       <Route path="/Four/:id" component={Fourpointone} />
     </Route>
+
+    <Route path="/counters" component={Counters}></Route>
+
     <Route path="*" component={NoMatch}></Route>
 
   </Router>
