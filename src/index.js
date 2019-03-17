@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
+import "./App.css";
 
 import One from './components/One';
 import Two from './components/Two';
@@ -14,7 +15,7 @@ import Fourpointone from './components/Fourpointone';
 import "bootstrap/dist/css/bootstrap.css";
 
 //counter component
-import Counters from './components/counters';
+import ShowNav from './components/shownav';
 
 
 import { Router, Route, browserHistory } from 'react-router'
@@ -29,7 +30,7 @@ ReactDOM.render(
       <Route path="/Four/:id" component={Fourpointone} />
     </Route>
 
-    <Route path="/counters" component={Counters}></Route>
+    <Route path="/shownav" component={ShowNav}></Route>
 
     <Route path="*" component={NoMatch}></Route>
 
