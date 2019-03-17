@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 /** stateless functional component returns a react element
 shortcut sfc*/
@@ -18,7 +18,7 @@ shortcut sfc*/
 
 
 /**object destructuring */
-const Navbar = ({ totalCounters=6 }) => {
+const Navbar = ({ totalCounters }) => {
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
