@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import One from './One';
-import Two from './Two';
-import Three from './Three';
-import Four from './Four';
-import NoMatch from './NoMatch';
-import Fourpointone from './Fourpointone';
+
+import One from '.components/One';
+import Two from '.components/Two';
+import Three from '.components/Three';
+import Four from '.components/Four';
+import NoMatch from '.components/NoMatch';
+import Fourpointone from '.components/Fourpointone';
+
+
 import { Router, Route, browserHistory } from 'react-router'
 
 ReactDOM.render(
@@ -26,6 +29,6 @@ ReactDOM.render(
 
 
 
-,
+  ,
   document.getElementById('root')
 );
